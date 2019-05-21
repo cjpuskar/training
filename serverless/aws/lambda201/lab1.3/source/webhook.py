@@ -7,7 +7,6 @@ import hashlib
 import json
 
 # Setup our standard logger. We re-use the same format in most places so we have a standard presentation
-# adding comment
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 logger.handlers[0].setFormatter(logging.Formatter('[%(asctime)s][%(levelname)s] %(message)s'))
